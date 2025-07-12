@@ -15,6 +15,9 @@
 
 }
 
+body {
+    background-color: rgb(245, 248, 255);
+}
 
 .primary-btn {
     font-size: 16px;
@@ -50,6 +53,18 @@
 
 .bg-blue {
     background-color: rgb(229, 231, 255);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
 
 /* Types of codes */
@@ -147,6 +162,8 @@ header .hero-content {
     padding: 24px;
     box-shadow: 5px 5px 10px rgba(74, 72, 65, 0.107);
     cursor: pointer;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .users-feedback .users-feedback-star {
@@ -168,4 +185,76 @@ header .hero-content {
 
 .user-info img {
     border-radius: 50%;
+}
+
+.big-banner {
+    padding: 70px 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.big-banner * {
+    margin-bottom: 20px;
+}
+
+.big-banner .big-banner-img {
+    border-radius: 48px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+.contact .form-caption {
+    font-size: 97px;
+}
+
+.contact form {
+    flex-basis: 50%;
+    font-size: 20px;
+}
+
+
+
+.contact input,
+.contact textarea {
+    display: block;
+    margin: 10px 0 20px;
+    padding: 20px 30px;
+    border: none;
+    background-color: white;
+    width: 400px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 100px 450px;
+}
+
+footer h1 {
+    font-size: 100px;
+    font-weight: bolder;
+    color: var(--primary-clr);
+    cursor: pointer;
+}
+
+footer p {
+    color: var(--title-clr)
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer ul a {
+    font-weight: bold;
 }
