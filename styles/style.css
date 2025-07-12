@@ -38,6 +38,7 @@
     font-size: 42px;
     font-weight: bold;
     color: var(--title-clr);
+    text-align: center;
 }
 
 .description {
@@ -128,4 +129,43 @@ header .hero-content {
     color: var(--primary-clr);
     margin-top: 40px;
     font-family: inner;
+}
+
+.users-feedback {
+    margin-bottom: 130px;
+}
+
+.users-feedback .title-text {
+    margin-bottom: 50px;
+}
+
+.users-feedback .row {
+    gap: 25px;
+}
+
+.users-feedback .col-3 {
+    padding: 24px;
+    box-shadow: 5px 5px 10px rgba(74, 72, 65, 0.107);
+    cursor: pointer;
+}
+
+.users-feedback .users-feedback-star {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.users-feedback .users-title {
+    font-size: 28px;
+    color: var(--title-clr);
+}
+
+.users-feedback .user-info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.user-info img {
+    border-radius: 50%;
 }
