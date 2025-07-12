@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Shared Codes start here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+:root {
+    --primary-clr: #4E47FF;
+}
+
+
+.primary-btn {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: var(--primary-clr);
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+.primary-btn:hover {
+    background-color: #312cc2;
+    transform: scale(1.1);
+
+}
+
+/* Types of codes */
+.hero {
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gainsboro;
+    /* fallback color*/
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+nav h2 {
+    font-size: 34px;
+    color: var(--primary-clr);
+    font-weight: bolder;
+    cursor: pointer;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.317);
+}
+
+header .hero-content {
+    padding: 150px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    line-height: auto;
+    margin-bottom: 35px;
+}
