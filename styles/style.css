@@ -12,6 +12,7 @@
     --primary-clr: #4E47FF;
     --title-clr: #252432;
     --para-clr: #252432;
+
 }
 
 
@@ -44,6 +45,10 @@
     color: var(--para-clr);
     margin: 20px 0;
 
+}
+
+.bg-blue {
+    background-color: rgb(229, 231, 255);
 }
 
 /* Types of codes */
@@ -87,7 +92,7 @@ header .hero-content {
 }
 
 .action {
-    margin: 100px auto;
+    margin: 110px auto;
 }
 
 .row {
@@ -101,4 +106,26 @@ header .hero-content {
     width: 400px;
     height: 320px;
     border-radius: 48px;
+}
+
+.productive-users .col-2 {
+    cursor: pointer;
+}
+
+.productive-users {
+    padding: 50px 80px;
+    margin-bottom: 120px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.productive-users .col-2 * {
+    margin: 0;
+}
+
+.productive-users .col-2 h2 {
+    font-size: 80px;
+    color: var(--primary-clr);
+    margin-top: 40px;
+    font-family: inner;
 }
