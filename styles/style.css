@@ -109,6 +109,11 @@ header .hero-content {
 
 .action {
     margin: 110px auto;
+    text-align: left;
+}
+
+.action .col-1 .title-text {
+    text-align: left;
 }
 
 .row {
